@@ -1,0 +1,44 @@
+body{
+    background-image: url("images/japan.jpg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-family: sans-serif;
+}
+h1{
+    font-size: 4.5em;
+    color: hsla(0, 0%, 100%, 0.897);
+    margin-left: 400px;
+    text-shadow: 1px 1px 10px hsla(197, 95%, 50%, 0.61), 
+                 1px 1px 10px hsla(197, 88%, 43%, 0.61);
+}
+table{
+    font-size: 1.8rem;
+    border-collapse: collapse;
+    margin: auto;
+    width: 1200px;
+    height: 100%;
+    backdrop-filter: blur(2.5px);
+    background-color: hsla(0, 0%, 52%, 0.356);
+    box-shadow: 0 0 10px 5px white,
+                0 0 10px 5px white,
+                0 0 10px 5px white,
+                0 0 20px 15px white;
+}
+th{
+    padding: 35px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    
+}
+.days{
+    padding: 10px;
+    padding-top: 30px;
+    border: none;
+    font-size: 3rem;
+    font-weight: bold;
+    backdrop-filter: none;
+    box-shadow: none;
+    text-shadow: 1px 1px 10px hsla(51, 100%, 50%, 0.932), 
+                 1px 1px 10px hsla(51, 100%, 50%, 0.74);
+}
